@@ -12,6 +12,8 @@
  *  functions.
  */
 
+var a = 270
+var b = 45
 
 /**
  *  #2
@@ -21,6 +23,12 @@
  *  Store this value in a variable named `sum`.
  */
 
+function add(){
+	return a + b;
+}
+
+var sum = add()
+console.log(sum)
 
 /**
  *  #3
@@ -30,6 +38,12 @@
  *  Store this value in a variable named `difference`
  */
 
+function subtract(){
+	return a - b;
+}
+
+var difference = subtract()
+console.log(difference)
 
 /**
  *  #4
@@ -39,6 +53,12 @@
  *  Store this value in a variable named `product`
  */
 
+function multiply(){
+	return a * b;
+}
+
+var product = multiply()
+console.log(product)
 
 /**
  *  #5
@@ -50,6 +70,11 @@
  *  value stored in `difference`.
  */
 
+function checkDifference(){
+	return "My footbal team lost " + difference + " times this week"
+}
+
+console.log(checkDifference(difference))
 
 /**
  *  #6
@@ -61,6 +86,12 @@
  *  stored in the variable `sum`.
  */
 
+function checkSum(){
+	return "I CAN ADDZ " + sum + " NUMBERS"
+}
+
+console.log(checkSum(sum))
+
 
 /**
  *  #7
@@ -71,6 +102,11 @@
  *  then prints the result to the console.
  */
 
+function checkSum(){
+	return product * difference
+}
+
+console.log()
 
 /**
  *  #8
@@ -86,6 +122,11 @@
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract(num10, num2, num3){
+	return num10 + num2 - num3
+}
+
+console.log()
 
 /**
  *  #9
@@ -158,7 +199,8 @@
  *     "John Papa loves to eat Pizza"
  *
  *  **example input:**
- *      if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
+ *      if someone called your program like this `eatFood( "Peter",
+ 		"Bojangles", "California Burritos" )`
   *  **example output:**
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
